@@ -27,6 +27,6 @@ class Hola(arcade.Window):
         arcade.draw_lrtb_rectangle_filled(0, SCREEN_WIDth, 160, 0,
                                      arcade.color.GREEN)
 
-if __name__ == "__main__":
+if __name__ == "__main__": #Metodo main
     app = Hola()
     arcade.run() 
