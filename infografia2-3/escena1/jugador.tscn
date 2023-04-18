@@ -1,0 +1,286 @@
+[gd_scene load_steps=101 format=2]
+
+[ext_resource path="res://assets/player/Attack (3).png" type="Texture" id=1]
+[ext_resource path="res://jugador.gd" type="Script" id=2]
+[ext_resource path="res://assets/player/Attack (2).png" type="Texture" id=3]
+[ext_resource path="res://assets/player/Walk (4).png" type="Texture" id=4]
+[ext_resource path="res://assets/player/Attack (4).png" type="Texture" id=5]
+[ext_resource path="res://assets/player/Attack (6).png" type="Texture" id=6]
+[ext_resource path="res://assets/player/Attack (8).png" type="Texture" id=7]
+[ext_resource path="res://assets/player/Attack (10).png" type="Texture" id=8]
+[ext_resource path="res://assets/player/Walk (5).png" type="Texture" id=9]
+[ext_resource path="res://assets/player/Attack (5).png" type="Texture" id=10]
+[ext_resource path="res://assets/player/Attack (9).png" type="Texture" id=11]
+[ext_resource path="res://assets/player/Walk (6).png" type="Texture" id=12]
+[ext_resource path="res://assets/player/Walk (8).png" type="Texture" id=13]
+[ext_resource path="res://assets/player/Walk (9).png" type="Texture" id=14]
+[ext_resource path="res://assets/player/Attack (7).png" type="Texture" id=15]
+[ext_resource path="res://assets/player/Walk (10).png" type="Texture" id=16]
+[ext_resource path="res://assets/player/Walk (1).png" type="Texture" id=17]
+[ext_resource path="res://assets/player/Walk (2).png" type="Texture" id=18]
+[ext_resource path="res://assets/player/Walk (3).png" type="Texture" id=19]
+[ext_resource path="res://assets/player/Walk (7).png" type="Texture" id=20]
+[ext_resource path="res://assets/player/Run (2).png" type="Texture" id=21]
+[ext_resource path="res://assets/player/Run (6).png" type="Texture" id=22]
+[ext_resource path="res://assets/player/JumpAttack (6).png" type="Texture" id=23]
+[ext_resource path="res://assets/player/Jump (10).png" type="Texture" id=24]
+[ext_resource path="res://assets/player/Jump (6).png" type="Texture" id=25]
+[ext_resource path="res://assets/player/Jump (9).png" type="Texture" id=26]
+[ext_resource path="res://assets/player/Run (8).png" type="Texture" id=27]
+[ext_resource path="res://assets/player/JumpAttack (3).png" type="Texture" id=28]
+[ext_resource path="res://assets/player/JumpAttack (10).png" type="Texture" id=29]
+[ext_resource path="res://assets/player/Jump (7).png" type="Texture" id=30]
+[ext_resource path="res://assets/player/JumpAttack (5).png" type="Texture" id=31]
+[ext_resource path="res://assets/player/JumpAttack (8).png" type="Texture" id=32]
+[ext_resource path="res://assets/player/JumpAttack (9).png" type="Texture" id=33]
+[ext_resource path="res://assets/player/Run (1).png" type="Texture" id=34]
+[ext_resource path="res://assets/player/Run (4).png" type="Texture" id=35]
+[ext_resource path="res://assets/player/Run (5).png" type="Texture" id=36]
+[ext_resource path="res://assets/player/Run (7).png" type="Texture" id=37]
+[ext_resource path="res://assets/player/Run (3).png" type="Texture" id=38]
+[ext_resource path="res://assets/player/Run (9).png" type="Texture" id=39]
+[ext_resource path="res://assets/player/Jump (8).png" type="Texture" id=40]
+[ext_resource path="res://assets/player/JumpAttack (2).png" type="Texture" id=41]
+[ext_resource path="res://assets/player/JumpAttack (7).png" type="Texture" id=42]
+[ext_resource path="res://assets/player/JumpAttack (1).png" type="Texture" id=43]
+[ext_resource path="res://assets/player/JumpAttack (4).png" type="Texture" id=44]
+[ext_resource path="res://assets/player/Run (10).png" type="Texture" id=45]
+[ext_resource path="res://assets/player/Jump (4).png" type="Texture" id=46]
+[ext_resource path="res://assets/player/Dead (2).png" type="Texture" id=47]
+[ext_resource path="res://assets/player/Dead (4).png" type="Texture" id=48]
+[ext_resource path="res://assets/player/Jump (5).png" type="Texture" id=49]
+[ext_resource path="res://assets/player/Dead (5).png" type="Texture" id=50]
+[ext_resource path="res://assets/player/Dead (6).png" type="Texture" id=51]
+[ext_resource path="res://assets/player/Dead (8).png" type="Texture" id=52]
+[ext_resource path="res://assets/player/Dead (10).png" type="Texture" id=53]
+[ext_resource path="res://assets/player/Jump (1).png" type="Texture" id=54]
+[ext_resource path="res://assets/player/Jump (2).png" type="Texture" id=55]
+[ext_resource path="res://assets/player/Dead (7).png" type="Texture" id=56]
+[ext_resource path="res://assets/player/Dead (9).png" type="Texture" id=57]
+[ext_resource path="res://assets/player/Jump (3).png" type="Texture" id=58]
+[ext_resource path="res://assets/player/Dead (3).png" type="Texture" id=59]
+[ext_resource path="res://assets/player/Idle (3).png" type="Texture" id=60]
+[ext_resource path="res://assets/player/Idle (7).png" type="Texture" id=61]
+[ext_resource path="res://assets/player/Idle (4).png" type="Texture" id=62]
+[ext_resource path="res://assets/player/Idle (5).png" type="Texture" id=63]
+[ext_resource path="res://assets/player/Idle (9).png" type="Texture" id=64]
+[ext_resource path="res://assets/player/Idle (10).png" type="Texture" id=65]
+[ext_resource path="res://assets/player/Idle (1).png" type="Texture" id=66]
+[ext_resource path="res://assets/player/Dead (1).png" type="Texture" id=67]
+[ext_resource path="res://assets/player/Idle (2).png" type="Texture" id=68]
+[ext_resource path="res://assets/player/Idle (6).png" type="Texture" id=69]
+[ext_resource path="res://assets/player/Idle (8).png" type="Texture" id=70]
+
+[sub_resource type="CapsuleShape2D" id=1]
+
+[sub_resource type="AnimationNodeAnimation" id=2]
+animation = "attack"
+
+[sub_resource type="AnimationNodeAnimation" id=3]
+animation = "dead"
+
+[sub_resource type="AnimationNodeAnimation" id=4]
+animation = "iddle"
+
+[sub_resource type="AnimationNodeAnimation" id=5]
+animation = "jump"
+
+[sub_resource type="AnimationNodeAnimation" id=6]
+animation = "jumpattack"
+
+[sub_resource type="AnimationNodeAnimation" id=7]
+animation = "run"
+
+[sub_resource type="AnimationNodeAnimation" id=8]
+animation = "walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=9]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=10]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=11]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=12]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=13]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=14]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=15]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=16]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=17]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=18]
+switch_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=29]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=30]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=31]
+
+[sub_resource type="AnimationNodeStateMachine" id=20]
+states/attack/node = SubResource( 2 )
+states/attack/position = Vector2( 817, 49 )
+states/dead/node = SubResource( 3 )
+states/dead/position = Vector2( 817, 183 )
+states/iddle/node = SubResource( 4 )
+states/iddle/position = Vector2( 548, 49 )
+states/jump/node = SubResource( 5 )
+states/jump/position = Vector2( 349, 98 )
+states/jumpattack/node = SubResource( 6 )
+states/jumpattack/position = Vector2( 141, 49 )
+states/run/node = SubResource( 7 )
+states/run/position = Vector2( 349, 206 )
+states/walk/node = SubResource( 8 )
+states/walk/position = Vector2( 548, 206 )
+transitions = [ "iddle", "walk", SubResource( 9 ), "walk", "iddle", SubResource( 10 ), "attack", "iddle", SubResource( 11 ), "iddle", "attack", SubResource( 12 ), "iddle", "dead", SubResource( 13 ), "walk", "run", SubResource( 14 ), "run", "walk", SubResource( 15 ), "iddle", "jump", SubResource( 16 ), "jump", "jumpattack", SubResource( 17 ), "jump", "iddle", SubResource( 18 ), "jumpattack", "iddle", SubResource( 29 ), "run", "jump", SubResource( 30 ), "jump", "run", SubResource( 31 ) ]
+start_node = "iddle"
+end_node = "dead"
+graph_offset = Vector2( -105.282, 0 )
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=21]
+
+[sub_resource type="Animation" id=22]
+resource_name = "attack"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 8 ), ExtResource( 3 ), ExtResource( 1 ), ExtResource( 5 ), ExtResource( 10 ), ExtResource( 6 ), ExtResource( 15 ), ExtResource( 7 ), ExtResource( 11 ), ExtResource( 8 ), ExtResource( 8 ) ]
+}
+
+[sub_resource type="Animation" id=23]
+resource_name = "dead"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 67 ), ExtResource( 47 ), ExtResource( 59 ), ExtResource( 48 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 56 ), ExtResource( 52 ), ExtResource( 57 ), ExtResource( 53 ) ]
+}
+
+[sub_resource type="Animation" id=24]
+resource_name = "iddle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.201, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 66 ), ExtResource( 68 ), ExtResource( 60 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 69 ), ExtResource( 61 ), ExtResource( 70 ), ExtResource( 64 ), ExtResource( 65 ) ]
+}
+
+[sub_resource type="Animation" id=25]
+resource_name = "jump"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 58 ), ExtResource( 46 ), ExtResource( 49 ), ExtResource( 25 ), ExtResource( 30 ), ExtResource( 40 ), ExtResource( 26 ), ExtResource( 24 ) ]
+}
+
+[sub_resource type="Animation" id=26]
+resource_name = "jumpattack"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.401, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 43 ), ExtResource( 41 ), ExtResource( 28 ), ExtResource( 44 ), ExtResource( 31 ), ExtResource( 23 ), ExtResource( 42 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 29 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+resource_name = "run"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 34 ), ExtResource( 21 ), ExtResource( 38 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 22 ), ExtResource( 37 ), ExtResource( 27 ), ExtResource( 39 ), ExtResource( 45 ) ]
+}
+
+[sub_resource type="Animation" id=28]
+resource_name = "walk"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 16 ) ]
+}
+
+[node name="jugador" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 86, 109 )
+scale = Vector2( 0.283646, 0.297737 )
+texture = ExtResource( 60 )
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource( 20 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/playback = SubResource( 21 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/attack = SubResource( 22 )
+anims/dead = SubResource( 23 )
+anims/iddle = SubResource( 24 )
+anims/jump = SubResource( 25 )
+anims/jumpattack = SubResource( 26 )
+anims/run = SubResource( 27 )
+anims/walk = SubResource( 28 )
